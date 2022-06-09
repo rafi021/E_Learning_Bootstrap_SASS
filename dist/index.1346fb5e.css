@@ -11497,4 +11497,56 @@ li.nav-item {
   background-color: #a9a4ff;
 }
 
+.features {
+  margin-top: 70px;
+}
+
+.feature h3, .feature .h3 {
+  color: #353382;
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.feature-icon {
+  margin-bottom: 25px;
+}
+
+.feature-icon i {
+  color: #fff;
+  font-size: 37px;
+  position: relative;
+}
+
+.feature-icon i:after {
+  content: "";
+  width: 85px;
+  height: 85px;
+  background: linear-gradient(129.13deg, #00e8f7 7.95%, #329dff 91.29%);
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.feature-icon i:before {
+  z-index: 99;
+  position: absolute;
+  bottom: 24px;
+  left: 23px;
+}
+
+.feature:nth-child(1) i:after {
+  background: linear-gradient(129.13deg, #e67ac8 7.95%, #aa82e9 91.29%);
+}
+
+.feature:nth-child(2) i:after {
+  background: linear-gradient(129.13deg, #00e8f7 7.95%, #329dff 91.29%);
+}
+
+.feature:nth-child(3) i:after {
+  background: linear-gradient(129.13deg, #f6ff8a 7.95%, #00ff30 91.29%);
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */

@@ -72,8 +72,6 @@ p{
 }
 
 
-
-
 //Navbar
 li.nav-item{
     margin-right: 1rem;
@@ -96,7 +94,55 @@ li.nav-item{
 
 
 //Features Section
+.features{
+    margin-top: 70px;
+}
+.feature{
+    h3{
+        color: $title-text-color;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        padding-bottom: 20px;
+    }
+    &-icon{
+        margin-bottom: 25px;
 
+
+        i{
+            font-size: 37px;
+            color: $white;
+            position: relative;
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 85px;
+                height: 85px;
+                border-radius: 25px;
+                background: $blue-bg;
+                left: 0;
+                bottom: 0;
+            }
+
+            &::before{
+                position: absolute;
+                z-index: 99;
+                left: 23px;
+                bottom: 24px;
+            }
+        }
+    }
+}
+.feature:nth-child(1) i::after{
+    background: $purple-bg;
+}
+.feature:nth-child(2) i::after{
+    background: $blue-bg;
+}
+.feature:nth-child(3) i::after{
+    background: $green-bg;
+}
 
 
 //Courses Section
