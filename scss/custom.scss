@@ -34,11 +34,51 @@ body{
     background-color: $blue;
 }
 
+.title{
+    color: $title-text-color;
+    font-size: $title-font-size;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+p{
+    line-height: 38px;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 43px;
+    border-radius: 35px;
+    transition: all 0.4s ease;
+
+    &-yellow{
+        background: $yellow-bg;
+        color: $white;
+        &:hover{
+            box-shadow: 0px 4px 17px rgba(255,198,96,0.61) ;
+            color: $white;
+        }
+    }
+    &-outline{
+        border: 2px solid $title-text-color;
+        color: $title-text-color;
+        padding: 14px 42px;
+        &:hover{
+            background-color: $title-text-color;
+            color: $white;
+        }
+    }
+}
+
+
+
 
 //Navbar
 li.nav-item{
     margin-right: 1rem;
 }
+
 
 .navbar-dark .navbar-nav .nav-link{
     font-size: 18px;

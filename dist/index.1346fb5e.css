@@ -11440,6 +11440,46 @@ body {
   background-color: #928bf9;
 }
 
+.title {
+  color: #353382;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+p {
+  line-height: 38px;
+}
+
+.btn {
+  border-radius: 35px;
+  padding: 15px 43px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all .4s;
+}
+
+.btn-yellow {
+  color: #fff;
+  background: linear-gradient(89.49deg, #ffa665 .44%, #ffcb68 99.62%);
+}
+
+.btn-yellow:hover {
+  color: #fff;
+  box-shadow: 0 4px 17px #ffc6609c;
+}
+
+.btn-outline {
+  color: #353382;
+  border: 2px solid #353382;
+  padding: 14px 42px;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #353382;
+}
+
 li.nav-item {
   margin-right: 1rem;
 }
