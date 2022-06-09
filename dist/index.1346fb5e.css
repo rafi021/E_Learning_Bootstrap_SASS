@@ -11430,4 +11430,31 @@ textarea.form-control-lg {
   }
 }
 
+body {
+  color: #918dc7;
+  font-family: Popins, sans-serif;
+  font-size: 15px;
+}
+
+.bg-blue {
+  background-color: #928bf9;
+}
+
+li.nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
+  background-color: #a9a4ff;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */

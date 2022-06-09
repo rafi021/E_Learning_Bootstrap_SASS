@@ -23,13 +23,36 @@ $purple-bg: linear-gradient(129.13deg, #E67AC8 7.95%, #AA82E9 91.29%);
 $blue-bg: linear-gradient(129.13deg, #00E8F7 7.95%, #329DFF 91.29%);
 $green-bg: linear-gradient(129.13deg, #F6FF8A 7.95%, #00FF30 91.29%);
 
+body{
+    font-family: 'Popins', sans-serif;
+    font-size: $body-font-size;
+    color: $body-text-color;
+}
 
 //Custom Classes
-
+.bg-blue{
+    background-color: $blue;
+}
 
 
 //Navbar
+li.nav-item{
+    margin-right: 1rem;
+}
 
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+
+    &:hover, &.active{
+        background-color: #A9A4FF;
+    }
+
+}
 
 
 //Features Section
