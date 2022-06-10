@@ -28,6 +28,11 @@ body{
     font-size: $body-font-size;
     color: $body-text-color;
 }
+#my-scrollbar {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
 
 //Custom Classes
 .bg-blue{
@@ -347,3 +352,4 @@ footer{
     margin-top: -330px;
    }
 }
+
