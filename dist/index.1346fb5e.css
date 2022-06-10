@@ -11651,4 +11651,45 @@ li.nav-item {
   padding: 15px 60px;
 }
 
+footer {
+  color: #fff;
+  background: url("footer-bg.6bd054ae.png") 0 0 / cover no-repeat;
+  padding-top: 380px;
+}
+
+footer ul.footer-menu {
+  padding-top: 15px;
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul.footer-menu li {
+  padding: 5px 0;
+}
+
+footer ul.footer-menu a {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer ul.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.credit {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 60px 10px 30px;
+}
+
+.credit a {
+  color: #fff;
+}
+
+.credit a:hover {
+  color: #353382;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */
