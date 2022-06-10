@@ -11549,4 +11549,11 @@ li.nav-item {
   background: linear-gradient(129.13deg, #f6ff8a 7.95%, #00ff30 91.29%);
 }
 
+.courses h4, .courses .h4 {
+  color: #353382;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */
