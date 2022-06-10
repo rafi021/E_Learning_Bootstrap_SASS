@@ -226,7 +226,25 @@ li.nav-item{
 
 
 //Newsletter Section
+.newsletter{
+    border-radius: 30px;
 
+    &-box{
+        padding: 14px 20px;
+        text-align: center;
+
+        h2{
+            color: $white;
+            font-weight: 600;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .btn{
+            padding: 15px 60px;
+        }
+    }
+}
 
 
 //Footer

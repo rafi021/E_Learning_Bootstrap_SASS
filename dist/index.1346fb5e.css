@@ -11631,4 +11631,24 @@ li.nav-item {
   background-color: #0000;
 }
 
+.newsletter {
+  border-radius: 30px;
+}
+
+.newsletter-box {
+  text-align: center;
+  padding: 14px 20px;
+}
+
+.newsletter-box h2, .newsletter-box .h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.newsletter-box .btn {
+  padding: 15px 60px;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */
