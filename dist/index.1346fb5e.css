@@ -11580,4 +11580,55 @@ li.nav-item {
   font-weight: 600;
 }
 
+.card {
+  text-align: center;
+  background: #fdfdfd;
+  border: none;
+  border-radius: 20px;
+  padding: 50px 0;
+}
+
+.card-body {
+  padding: 0 15px;
+}
+
+.card-body p {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.card-body p.starter {
+  background: linear-gradient(89.49deg, #ffa665 .44%, #ffcb68 99.62%);
+}
+
+.card-body p.pro {
+  background: linear-gradient(129.13deg, #e67ac8 7.95%, #aa82e9 91.29%);
+}
+
+.card-body p.single {
+  background: linear-gradient(129.13deg, #00e8f7 7.95%, #329dff 91.29%);
+}
+
+.card-body p.family {
+  background: linear-gradient(129.13deg, #f6ff8a 7.95%, #00ff30 91.29%);
+}
+
+.card-body h5, .card-body .h5 {
+  color: #353382;
+  margin: 14px 35px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.card li.list-group-item {
+  color: #918dc7;
+  background-color: #0000;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */

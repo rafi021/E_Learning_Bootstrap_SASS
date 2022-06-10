@@ -180,7 +180,49 @@ li.nav-item{
 
 
 //Pricing Section
+.card{
+    background: #FDFDFD;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 50px 0;
 
+    &-body{
+        padding: 0 15px;
+        p{
+            display: inline-block;
+            padding: 7px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $white;
+            letter-spacing: 1px;
+            border-radius: 40px;
+            &.starter{
+                background: $yellow-bg;
+            }
+            &.pro{
+                background: $purple-bg;
+            }
+            &.single{
+                background: $blue-bg;
+            }
+            &.family{
+                background: $green-bg;
+            }
+        }
+        h5{
+            color: $title-text-color;
+            font-weight: 500;
+            font-size: 28px;
+            margin: 14px 35px;
+        }
+    }
+    li.list-group-item{
+        color: $body-text-color;
+        background-color: transparent;
+    }
+}
 
 
 //Newsletter Section
