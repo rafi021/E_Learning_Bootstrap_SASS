@@ -11556,4 +11556,28 @@ li.nav-item {
   font-weight: 600;
 }
 
+.stats {
+  border-radius: 37px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 94px 65px;
+  display: flex;
+}
+
+.stat {
+  text-align: center;
+  color: #fff;
+}
+
+.stat-num {
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.stat-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=index.1346fb5e.css.map */

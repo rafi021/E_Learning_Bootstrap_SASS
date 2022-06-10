@@ -155,7 +155,28 @@ li.nav-item{
 
 
 //Stats
+.stats{
+    padding: 94px 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 37px;
+}
 
+.stat{
+    text-align: center;
+    color: $white;
+
+    &-num{
+        font-weight: 600;
+        font-size: 64px;
+        margin-bottom: 30px;
+    }
+    &-title{
+        font-weight: 600;
+        font-size: 24px;
+    }
+}
 
 
 //Pricing Section
