@@ -290,3 +290,60 @@ footer{
 }
 
 //Responsiveness
+@media only screen and (max-width: 992px) {
+    .feature:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .stats{
+        flex-direction: column;
+        padding: 73px 97px;
+    }
+    .stat{
+        margin-top: 25px;
+    }
+    footer{
+        background-position: right;
+        margin-top: -126px;
+    }
+}
+@media only screen and (max-width: 576px) {
+   body{
+    font-size: 13px;
+   }
+   p{
+    line-height: 27px;
+   }
+   .title{
+    font-size: 33px;
+    line-height: 47px;
+   }
+
+   .feature h3{
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 10px;
+   }
+
+   .stats{
+    flex-direction: column;
+    padding: 73px 97px;
+   }
+   .stat{
+    &:not(:last-child){
+        padding-bottom: 30px;
+    }
+
+    &-num{
+        font-size: 42px;
+        margin-bottom: 14px;
+    }
+    &-title{
+        font-size: 18px;
+    }
+   }
+
+   footer{
+    padding-top: 580px;
+    margin-top: -330px;
+   }
+}
